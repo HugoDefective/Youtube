@@ -47,9 +47,9 @@ nav{
     margin-top: 0px;    
 }
 .listavideos{
+    
     width: 500px;
     height: 700px;
-    background-color: blue;
 }
 #video{
     position: relative;
@@ -123,12 +123,20 @@ nav{
     margin-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
-
-
-
 }
 .comenta img{
     width: 40px;
     height: 40px;
 }
+.video1 img{
+    width: 220px;
+    height: 130px;
+}
+.video1{
+    display: flex;
+    flex-direction: row;
+}
+#titulovideo{
+    font-size: 12px;
+    
 }
